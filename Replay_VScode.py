@@ -11,6 +11,7 @@ import os
 import sys  
 import random
 import copy
+print('hi')
 
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath("/Users/udeozormi/Desktop/reinstatementParty1/Replay_VScode.py"))
