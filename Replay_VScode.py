@@ -3,7 +3,6 @@
 
 from __future__ import absolute_import, division
 
-
 from psychopy import gui, visual, core, data, event, logging, clock, colors
 import numpy as np  
 from numpy.random import random, choice as randchoice
@@ -11,17 +10,9 @@ import os
 import sys  
 import random
 import copy
-print('hi')
 
-# SOME SERIOUS MAJOR CHANGES
 
 file_path = os.getcwd()
-
-print('File path: ' + str(file_path))
-
-
-# Ensure that relative paths start from the same directory as this script
-_thisDir = os.path.dirname(os.path.abspath(file_path))
 
 # Store info about the experiment session
 psychopyVersion = '2021.2.3'
@@ -36,7 +27,7 @@ expInfo['psychopyVersion'] = psychopyVersion
 
 
 #Save filename
-filename = file_path+ '/replay_data/' + expInfo['participant'] + "_" + expName + "_" + expInfo['date']
+filename = file_path + '/replay_data/' + expInfo['participant'] + "_" + expName + "_" + expInfo['date']
 print(filename)
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
